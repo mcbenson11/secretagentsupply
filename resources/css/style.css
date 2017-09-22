@@ -1,0 +1,30 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  align-items: center;
+  padding: 0.66rem 0;
+}
+
+.header img {
+  height: 1.5rem;
+  padding: 0 1rem 0 0.5rem;
+}
+
+.bannerbackground {
+  background-image: url("../images/moto.jpg");
+  height: 25rem;
+  background-size: cover;
+}
