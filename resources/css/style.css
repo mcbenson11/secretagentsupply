@@ -28,3 +28,32 @@ body {
   height: 25rem;
   background-size: cover;
 }
+
+.bannerbox {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 20rem;
+  height: 10rem;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.bannerbox h3 {
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+
+.bannerbox h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}
+
+.navigation {
+  background-color: firebrick;
+  color: white;
+}
+
+.navigation li {
+  padding: 0.75rem 0;
+}
