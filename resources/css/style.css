@@ -71,7 +71,22 @@ body {
   color: white;
 }
 
-.product {
+.productcontainer {
+  width: 30%;
+}
+
+.productcontainer img {
+  height: 9rem;
+  padding: 2rem;
+}
+
+#glasses {
+  width: 9rem;
+  height: auto;
+  padding: 4.25rem 2rem;
+}
+
+.producttext {
   background-color: black;
   width: 30%;
   color: white;
