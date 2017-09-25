@@ -6,12 +6,20 @@ body {
   font-family: Helvetica;
 }
 
+div {
+  border: 1px solid red;
+}
+
 .flex {
   display: flex;
 }
 
 .block {
   display: block;
+}
+
+.spacebetween {
+  justify-content: space-between;
 }
 
 .container {
@@ -73,6 +81,7 @@ body {
 
 .productcontainer {
   width: 30%;
+  margin: 0 auto;
 }
 
 .productcontainer img {
@@ -103,6 +112,12 @@ body {
   background-color: black;
   color: white;
   padding: 1rem 0 1rem 2rem;
+}
+
+.locationbox {
+  width: 35%;
+  height: auto;
+  padding: 3rem 0 4rem 0;
 }
 
 .footer {
