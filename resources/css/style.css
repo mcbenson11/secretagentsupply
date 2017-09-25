@@ -79,25 +79,31 @@ div {
   color: white;
 }
 
+.products {
+  margin-top: 3rem;
+}
+
 .productcontainer {
   width: 30%;
-  margin: 0 auto;
 }
 
 .productcontainer img {
   height: 9rem;
-  padding: 2rem;
+  width: auto;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
 }
 
 #glasses {
   width: 9rem;
   height: auto;
-  padding: 4.25rem 2rem;
 }
 
 .producttext {
   background-color: black;
   width: 30%;
+  height: 0;
   color: white;
   text-align: center;
   padding: 0.5rem 0;
@@ -105,7 +111,6 @@ div {
 
 .productbox{
   border: 4px solid black;
-  margin: 3rem 0;
 }
 
 .location {
