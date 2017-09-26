@@ -115,6 +115,10 @@ div {
 
 }
 
+.watch {
+
+}
+
 #glasses {
   width: 9rem;
   height: auto;
@@ -149,8 +153,9 @@ div {
 }
 
 /* Media queries */
-@media only screen and (max-width: 1024px) {
 
+/*Tablet*/
+@media only screen and (max-width: 1024px) {
   .desktopnav {
     display: none;
   }
@@ -166,5 +171,36 @@ div {
   .glasses {
     display: none;
   }
+}
 
+/*Smart phone*/
+@media only screen and (max-width: 470px) {
+  .bannerbackground {
+    height: 15rem;
+  }
+
+  .bannerbox {
+    width: 100%;
+    height: 5rem;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  .bannerbox h3 {
+    font-size: 0.77rem;
+    padding-top: 1rem;
+  }
+
+  .bannerbox h1 {
+    font-size: 1rem;
+    padding-top: 0.25rem;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
 }
