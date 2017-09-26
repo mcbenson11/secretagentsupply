@@ -88,25 +88,29 @@ body {
   border: 4px solid black;
   justify-content: center;
   align-items: center;
+  display: inline-block;
 }
 
 .productimg {
   height: 9rem;
   width: auto;
   padding: 2rem 0;
+  display: flex;
+  margin: auto;
 }
 
 #glasses {
   width: 9rem;
   height: auto;
+  margin-right: 0px;
+  padding: 4.4rem;
 }
 
 .producttext {
   background-color: black;
   color: white;
   text-align: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 .location {
