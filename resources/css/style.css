@@ -6,9 +6,9 @@ body {
   font-family: Helvetica;
 }
 
-/* div {
+div {
   border: 1px solid red;
-} */
+}
 
 .flex {
   display: flex;
@@ -79,6 +79,18 @@ body {
   color: white;
 }
 
+.desktopnav {
+
+}
+
+.menu {
+  visibility: hidden;
+  padding: 0.75em 0;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .products {
   margin-top: 3rem;
 }
@@ -97,6 +109,10 @@ body {
   padding: 2rem 0;
   display: flex;
   margin: auto;
+}
+
+.glasses {
+
 }
 
 #glasses {
@@ -130,4 +146,25 @@ body {
   height: 5rem;
   color: white;
   align-items: center;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1024px) {
+
+  .desktopnav {
+    display: none;
+  }
+
+  .menu {
+    visibility: visible;
+  }
+
+  .productcontainer {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
 }
