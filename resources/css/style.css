@@ -160,6 +160,10 @@ body {
 
 /*Tablet*/
 @media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
   .desktopnav {
     display: none;
   }
@@ -180,6 +184,10 @@ body {
 
 /*Smart phone*/
 @media only screen and (max-width: 470px) {
+  .container {
+    width: 100%;
+  }
+
   .bannerbackground {
     height: 15rem;
   }
@@ -202,7 +210,11 @@ body {
 
   .productcontainer {
     width: 90%;
-    border: 4px solid black;
+    margin: 0 auto;
+  }
+
+  .watch {
+    display: none;
   }
 
   .locationsmall {
