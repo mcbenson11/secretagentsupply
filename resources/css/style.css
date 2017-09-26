@@ -6,12 +6,16 @@ body {
   font-family: Helvetica;
 }
 
-div {
+/*div {
   border: 1px solid red;
-}
+}*/
 
 .flex {
   display: flex;
+}
+
+.inlineflex {
+  display: inline-flex;
 }
 
 .block {
@@ -162,6 +166,7 @@ div {
 
   .menu {
     visibility: visible;
+    margin 0 auto;
   }
 
   .productcontainer {
@@ -180,7 +185,6 @@ div {
   }
 
   .bannerbox {
-    width: 100%;
     height: 5rem;
     flex-direction: column;
     margin-top: 10rem;
@@ -196,8 +200,14 @@ div {
     padding-top: 0.25rem;
   }
 
-  .watch {
-    display: none;
+  .productcontainer {
+    width: 90%;
+    border: 4px solid black;
+  }
+
+  .locationsmall {
+    flex-wrap: wrap;
+    display: flex;
   }
 
   .footer {
